@@ -8,5 +8,5 @@ inherit extrausers
 # PASSWD below is set to the output of
 # printf "%q" $(mkpasswd -m sha256crypt root) to hash the "root" password
 # string
-PASSWD = "\$5\$2WoxjAdaC2\$l4aj6Is.EWkD72Vt.byhM5qRtF9HcCM/5YpbxpmvNB5"
+PASSWD = "\$5\$WNoEDG.8KThD6\$U/.GO3YUFciS73l/7Hks.bY6NgflAzYl6lZt5jc1EB2tohashtherootpassword"
 EXTRA_USERS_PARAMS = "usermod -p '${PASSWD}' root;"
